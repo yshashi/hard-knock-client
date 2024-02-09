@@ -1,29 +1,24 @@
 <div class="bg-purple-100 dark:bg-purple-950 border-b border-purple-200 dark:border-purple-800">
-  <div class="container items-center grid h-14 px-4 md:px-6 grid-cols-2">
+  <div class=" flex items-center justify-between h-14 px-4 md:grid md:grid-cols-2 md:px-6">
     <a class="flex items-center space-x-2 text-sm font-medium text-purple-900 dark:text-purple-50" href="#">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
         <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
         <line x1="4" x2="4" y1="22" y2="15"></line>
       </svg>
-      <span>hard-knock.com (website development in progress)</span></a>
-    <nav class="flex items-center justify-end space-x-4 text-sm font-medium">
-      <a
-        class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">
-        Home
-      </a><a class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">
-        Services
-      </a><a class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">
-        Case Studies
-      </a><a class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">
-        Contact
-      </a>
+      <span>hard-knock.com (website development in progress)</span>
+    </a>
+    <nav class="hidden md:flex items-center justify-end space-x-4 text-sm font-medium">
+      <a class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">Home</a>
+      <a class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">Services</a>
+      <a class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">Case Studies</a>
+      <a class="flex items-center space-x-2 text-purple-900 dark:text-purple-50" href="#">Contact</a>
     </nav>
   </div>
 </div>
-<div class="container">
+
   <section class="w-full py-12">
-    <div class="container grid gap-6 px-4 md:px-6 lg:grid-cols-[1fr_600px]">
+    <div class=" grid gap-6 px-4 md:px-6 lg:grid-cols-[1fr_600px]">
       <div class="flex flex-col justify-center space-y-2">
         <div class="space-y-2">
           <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl text-purple-900 dark:text-purple-50">
@@ -41,8 +36,8 @@
         class="mx-auto aspect-video overflow-hidden rounded-xl object-bottom sm:w-full">
     </div>
   </section>
-  <section class="w-full py-20">
-    <div class="container grid gap-6 md:gap-12 lg:grid-cols-3 px-4 md:px-6">
+  <section class="w-full py-12">
+    <div class=" grid gap-6 md:gap-12 lg:grid-cols-3 px-4 md:px-6">
       <div class="flex flex-col items-center justify-center space-y-2 text-center">
         <svg xmlns="http://www.w3.org/2000/svg"
           width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -85,7 +80,7 @@
     </div>
   </section>
   <div class="border-t border-purple-200 dark:border-purple-800">
-    <div class="container py-8 text-center md:py-12 lg:py-16 xl:py-20">
+    <div class=" py-8 text-center md:py-12 lg:py-16 xl:py-20">
       <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl/none text-purple-900 dark:text-purple-50">
         Let's take your business to the next level
       </h2>
@@ -94,7 +89,7 @@
       </p>
     </div>
   </div>
-  <div class="container py-8 text-center md:py-12 lg:py-16 xl:py-20">
+  <div class="py-8 px-4 text-center md:py-12 lg:py-16 xl:py-20">
     <div class="grid max-w-[900px] gap-6 mx-auto sm:grid-cols-2">
       <div class="space-y-1">
         <h2 class="text-2xl font-bold tracking-tighter sm:text-3xl text-purple-900 dark:text-purple-50">
@@ -106,9 +101,9 @@
       </div>
       <div class="flex flex-col space-y-2">
         <button
-          class="bg-purple-900 text-white p-3 w-1/2 rounded-lg hover:bg-opacity-80">
+          class="bg-purple-900 text-white p-3 w-full rounded-lg hover:bg-opacity-80">
           Contact Us
         </button>
       </div>
     </div>
-</div>
+  </div>
